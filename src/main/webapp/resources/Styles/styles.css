@@ -1,0 +1,472 @@
+@charset "ISO-8859-1";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: "Roboto" !important;
+	font-size: 14px;
+}
+
+#body-login {
+	background-color: #00989C;
+}
+
+#body-flex-login {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#container-login {
+	display: flex;
+	width: 820px;
+	height: 610px;
+	background-color: white;
+}
+
+#container-login-left {
+	width: 380px;
+	height: 610px;
+	background-color: blue;
+	background-image: url("../Image/backgrounddangnhap.png");
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 16px;
+}
+
+.header-login {
+	margin-top: 32px;
+}
+
+#text-logo {
+	font-size: 48px;
+}
+
+#hint-text-logo {
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+#header-left {
+	text-align: center;
+	color: white;
+}
+
+#header-bottom-left {
+	color: white;
+	margin-bottom: 64px;
+}
+
+#header-bottom-left span {
+	color: white;
+	margin-left: 8px;
+}
+
+/* #header {
+	
+	height: 662px;
+	background: 
+    top, transparent red, faked with gradient 
+    linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.50)
+    ),url("../Image/Untitled-1kr.jpg") no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+	
+	
+	
+} */
+.none_nav {
+	background: none !important;
+	border: none !important;
+}
+
+.navbar-nav a {
+	color: white !important;
+}
+
+.active>a {
+	color: #0167ff !important;
+	background: none !important;
+	font-weight: bold;
+}
+
+.dropdown-menu {
+	background-color: #0167ff !important;
+	color: white !important;
+}
+
+.dropdown-menu>a {
+	color: white !important;
+}
+
+.dropdown-menu a {
+	color: #0167ff;
+}
+
+.dropdown-menu  a:hover {
+	color: #0167ff !important;
+}
+
+.event_header {
+	text-align: center;
+	margin-top: 216px;
+}
+
+.event_header>button {
+	color: white;
+	background-color: #00ffff !important;
+	border: #00ffff;
+}
+
+.event_header>span {
+	color: white;
+}
+
+.navbar-center {
+	margin-left: 27% !important;
+}
+
+@media ( max-width : 575.98px) {
+	.navbar-center {
+		margin-left: 0 !important;
+	}
+}
+
+@media ( min-width : 576px) and (max-width: 767.98px) {
+	.navbar-center {
+		margin-left: 0 !important;
+	}
+}
+
+@media ( min-width : 768px) and (max-width: 991.98px) {
+	.navbar-center {
+		margin-left: 8% !important;
+	}
+}
+
+@media ( min-width : 992px) and (max-width: 1199.98px) {
+	...
+}
+
+@media ( min-width : 1200px) {
+	...
+}
+
+#info {
+	text-align: center;
+	margin-top: 48px;
+}
+
+#info>span {
+	margin-top: 16px;
+}
+
+.icon {
+	width: 48px;
+	height: 48px;
+}
+
+#title-sanpham {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 500;
+	padding-bottom: 16px;
+}
+
+.gia {
+	font-size: 14px;
+	color: red;
+}
+
+.sanpham {
+	margin-top: 46px;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	border-radius: 8px;
+	margin-left: 4px;
+	margin-right: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sanpham img {
+	height: 256px;
+}
+
+#footer {
+	margin-top: 42px;
+	color: white;
+	background-color: black;
+	padding: 38px;
+	background: /* top, transparent red, faked with gradient */
+		linear-gradient( rgba( 0, 0, 0, 0.42), rgba( 0, 0, 0, 0.42)),
+		url("../Image/background_footer.jpg") no-repeat center center;
+}
+
+#footer  span {
+	
+}
+
+#footer p {
+	text-align: center;
+}
+
+.footer-textarea {
+	border: 0;
+	background-color: #c0c0c0;
+	width: 100%;
+}
+
+.title-footer {
+	font-size: 32px;
+	color: white;
+}
+
+.material-text-input {
+	height: 38px;
+	border: 0;
+	background-color: #c0c0c0;
+	width: 100%;
+}
+
+.material-primary-button {
+	height: 38px;
+	border: 0;
+	background-color: #00989c;
+	width: 100%;
+	box-shadow: 0px 2px 4px 0px #000;
+}
+
+/* #header3 {
+	
+	height: 462px;
+	background: 
+    top, transparent red, faked with gradient 
+    linear-gradient(
+      rgba(0, 0, 0, 0.42), 
+      rgba(0, 0, 0, 0.42)
+    ),url("../Image/giao-hang-tieu-chuan.png") no-repeat center center ; 
+
+	
+	
+	
+	
+} */
+.slideInLeft {
+	background-color: #F36734;
+}
+
+.slideInRight {
+	background-color: #444A56;
+}
+
+#s5h-footer1 {
+	background: /* top, transparent red, faked with gradient */
+		url("../Image/maps.jpg") no-repeat center center !important;
+}
+
+#header3 {
+	height: 623px;
+	background: url(../Image/bg-bn.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 88px;
+	overflow: hidden;
+}
+
+.DNNOne {
+	background: #ffc000;
+	height: 88px;
+	width: 350px;
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4);
+}
+
+.lms_heading_One {
+	border-left: solid 4px #ffffff;
+	margin: 10px;
+	padding: 10px 10px 0 10px;
+	margin-top: 290px;
+}
+
+#dnn_ctr416_Main_ViewKQ_bt_tracking, #cmd_tracuu, #SearchDiadiem,
+	#cmd_timdiadiem {
+	background: #ffc000;
+	background: -moz-linear-gradient(top, #ffffff 0%, #feae00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff),
+		color-stop(100%, #feae00));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #feae00 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #feae00 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #feae00 100%);
+	background: linear-gradient(top, #ffffff 0%, #feae00 100%);
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px
+		0px 0px rgba(255, 255, 255, 1);
+	box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px
+		rgba(255, 255, 255, 1);
+	/*text-shadow: 0px 1px 0px #ffffff;*/
+	color: #333;
+	width: 26%;
+	height: 37px;
+	border: 0px solid;
+	border-radius: 5px;
+	text-transform: uppercase;
+	float: right;
+}
+
+#cmd_tracuu, #cmd_timdiadiem {
+	display: inline-block;
+	padding: 11px 9px;
+	margin-bottom: 9px;
+	cursor: pointer;
+	min-width: 75px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #333;
+	text-decoration: none;
+	text-align: center;
+}
+
+#dnn_ctr416_Main_ViewKQ_bt_tracking1, #cmd_tracuu, #SearchDiadiem,
+	#cmd_timdiadiem {
+	background: #ffc000;
+	background: -moz-linear-gradient(top, #ffc000 0%, #feae00 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffc000),
+		color-stop(100%, #feae00));
+	background: -webkit-linear-gradient(top, #ffc000 0%, #feae00 100%);
+	background: -o-linear-gradient(top, #ffc000 0%, #feae00 100%);
+	background: -ms-linear-gradient(top, #ffc000 0%, #feae00 100%);
+	background: linear-gradient(top, #ffc000 0%, #feae00 100%);
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px
+		0px 0px rgba(255, 255, 255, 1);
+	box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px
+		rgba(255, 255, 255, 1);
+	/*text-shadow: 0px 1px 0px #ffffff;*/
+	color: #333;
+	width: 66%;
+	height: 37px;
+	border: 0px solid;
+	border-radius: 5px;
+	text-transform: uppercase;
+	float: right;
+	margin-top: 50px;
+	margin-right: 100px;
+}
+
+/* PAGE CHUYEN HANG NGAY */
+#locationField, #controls {
+	position: relative;
+	width: 480px;
+}
+
+.label {
+	text-align: right;
+	font-weight: bold;
+	width: 100px;
+	color: #303030;
+}
+
+#address {
+	border: 1px solid #000090;
+	background-color: #f0f0ff;
+	width: 480px;
+	padding-right: 2px;
+}
+
+#address td {
+	font-size: 10pt;
+}
+
+.field {
+	width: 99%;
+}
+
+.slimField {
+	width: 80px;
+}
+
+.wideField {
+	width: 200px;
+}
+
+#locationField {
+	height: 20px;
+	margin-bottom: 2px;
+}
+
+#s5h-banner {
+   height: 623px;
+	background: url(../Image/bg-bn.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 88px;
+	overflow: hidden;
+}
+
+
+ /* PAGE NHAN DON */
+ 
+ #s5h-banner1 {
+   height: 623px;
+   
+/* 	background: 
+    top, transparent red, faked with gradient 
+    linear-gradient(
+      rgba(0, 0, 0, 0.42), 
+      rgba(0, 0, 0, 0.42)
+    ),url("../Image/maps.jpg") no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+  
+  
+background: url(../Image/maps.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 88px;
+	overflow: hidden; 
+}
+
+.tablenhandon{
+	border: 1px solid black;
+	text-align: center;
+	width: 100%;
+	border-collapse: collapse !important;
+	
+}
+
+.tablenhandon th {
+	height: 50px;
+	text-align: center;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+.tablenhandon td {
+	border: 1px solid black;
+	  height: 50px;
+    vertical-align: center;
+    border-collapse: collapse;
+}
+
+.lms_heading_One_nhan_don{   
+    border-left: solid 4px #ffba01;
+    margin: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+
+.DNNOnenhandon {
+	background: #ffc000;
+	height: 88px;
+	width: 350px;
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4);
+}
